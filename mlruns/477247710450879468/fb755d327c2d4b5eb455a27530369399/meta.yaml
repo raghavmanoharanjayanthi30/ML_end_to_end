@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/raghavraahul/Downloads/module_5_project/mlruns/477247710450879468/fb755d327c2d4b5eb455a27530369399/artifacts
+end_time: 1793613362977
+entry_point_name: ''
+experiment_id: '477247710450879468'
+lifecycle_stage: active
+run_id: fb755d327c2d4b5eb455a27530369399
+run_name: gradient_boosting
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1793612984144
+status: 3
+tags: []
+user_id: raghavraahul

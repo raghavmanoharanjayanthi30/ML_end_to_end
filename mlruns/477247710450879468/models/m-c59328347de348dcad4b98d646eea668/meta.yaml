@@ -1,0 +1,10 @@
+artifact_location: file:///Users/raghavraahul/Downloads/module_5_project/mlruns/477247710450879468/models/m-c59328347de348dcad4b98d646eea668/artifacts
+creation_timestamp: 1793612981962
+experiment_id: '477247710450879468'
+last_updated_timestamp: 1793612984125
+model_id: m-c59328347de348dcad4b98d646eea668
+model_type: null
+name: model
+source_run_id: ce4f2f5c991f4dfcb22b33b22e2802dc
+status: 2
+status_message: null

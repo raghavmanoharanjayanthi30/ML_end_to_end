@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/raghavraahul/Downloads/module_5_project/mlruns/477247710450879468/903a09c67bee4c3a96b25b23a74a07d9/artifacts
+end_time: 1793612969477
+entry_point_name: ''
+experiment_id: '477247710450879468'
+lifecycle_stage: active
+run_id: 903a09c67bee4c3a96b25b23a74a07d9
+run_name: logistic_regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1793612965336
+status: 3
+tags: []
+user_id: raghavraahul

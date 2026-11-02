@@ -1,0 +1,21 @@
+# Core data science
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+
+# MLOps stack (required by checkpoint)
+mlflow>=2.10.0
+dvc>=3.30.0
+great-expectations>=0.18.0
+
+# Serving & testing
+fastapi>=0.109.0
+uvicorn>=0.27.0
+python-multipart>=0.0.6
+pytest>=8.0.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.29.0

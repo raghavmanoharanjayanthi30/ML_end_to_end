@@ -1,0 +1,6 @@
+#!/Users/raghavraahul/Downloads/module_5_project/.venv/bin/python3
+import sys
+from jupyter_client.kernelspecapp import KernelSpecApp
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(KernelSpecApp.launch_instance())

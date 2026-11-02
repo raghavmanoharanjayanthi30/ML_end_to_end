@@ -1,0 +1,187 @@
+{
+  "generated_at": "2026-11-02T08:37:06.335017",
+  "baseline_period": "training_data",
+  "current_period": "test_data",
+  "data_drift": {
+    "timestamp": "2026-11-02T08:37:06.335029",
+    "baseline_size": 40000,
+    "current_size": 15000,
+    "features": {
+      "age": {
+        "ks_statistic": 0.00539999999999996,
+        "ks_pvalue": 0.906307494730912,
+        "baseline_mean": 53.0365,
+        "current_mean": 53.026066666666665,
+        "mean_shift": -0.010433333333331518,
+        "mean_shift_pct": -0.01967198690209859,
+        "baseline_std": 21.003624605200024,
+        "current_std": 21.112338475828537,
+        "is_drifted": "False"
+      },
+      "tenure_years": {
+        "ks_statistic": 0.007841666666666691,
+        "ks_pvalue": 0.5109833497731382,
+        "baseline_mean": 9.0927,
+        "current_mean": 9.192,
+        "mean_shift": 0.0992999999999995,
+        "mean_shift_pct": 1.0920848592827157,
+        "baseline_std": 5.8093158300922445,
+        "current_std": 5.838213909188605,
+        "is_drifted": "False"
+      },
+      "claims_last_12mo": {
+        "ks_statistic": 0.008775000000000033,
+        "ks_pvalue": 0.36821977490426694,
+        "baseline_mean": 5.649275,
+        "current_mean": 5.684,
+        "mean_shift": 0.034724999999999895,
+        "mean_shift_pct": 0.6146806448615069,
+        "baseline_std": 3.718099323705531,
+        "current_std": 3.706515868574188,
+        "is_drifted": "False"
+      },
+      "denied_claims_last_12mo": {
+        "ks_statistic": 0.004383333333333295,
+        "ks_pvalue": 0.9842150678539362,
+        "baseline_mean": 0.846425,
+        "current_mean": 0.8540666666666666,
+        "mean_shift": 0.007641666666666658,
+        "mean_shift_pct": 0.90281674887517,
+        "baseline_std": 1.0141328468256885,
+        "current_std": 1.0168771139260357,
+        "is_drifted": "False"
+      },
+      "premium_increase_pct": {
+        "ks_statistic": 0.007141666666666713,
+        "ks_pvalue": 0.6313625132134016,
+        "baseline_mean": 6.5498525,
+        "current_mean": 6.5173466666666675,
+        "mean_shift": -0.03250583333333257,
+        "mean_shift_pct": -0.4962834404795004,
+        "baseline_std": 4.395612018066322,
+        "current_std": 4.362788101794192,
+        "is_drifted": "False"
+      },
+      "service_calls_last_12mo": {
+        "ks_statistic": 0.005991666666666728,
+        "ks_pvalue": 0.8260703705839205,
+        "baseline_mean": 1.91425,
+        "current_mean": 1.9267333333333334,
+        "mean_shift": 0.012483333333333402,
+        "mean_shift_pct": 0.6521265944016404,
+        "baseline_std": 1.9518304687022547,
+        "current_std": 1.950184318677086,
+        "is_drifted": "False"
+      },
+      "last_satisfaction_score": {
+        "ks_statistic": 0.014372841753946958,
+        "ks_pvalue": 0.12274295733791141,
+        "baseline_mean": 3.270098416427038,
+        "current_mean": 3.2384914631510697,
+        "mean_shift": -0.03160695327596841,
+        "mean_shift_pct": -0.966544404816497,
+        "baseline_std": 1.0323977066715655,
+        "current_std": 1.0396156742355525,
+        "is_drifted": "False"
+      },
+      "state": {
+        "chi2_statistic": 4.447099142990311,
+        "chi2_pvalue": 0.21705773927529562,
+        "baseline_distribution": {
+          "OH": 0.5492,
+          "IN": 0.20305,
+          "KY": 0.150375,
+          "WV": 0.097375
+        },
+        "current_distribution": {
+          "OH": 0.5566,
+          "IN": 0.2002,
+          "KY": 0.14553333333333332,
+          "WV": 0.09766666666666667
+        },
+        "is_drifted": "False"
+      },
+      "plan_type": {
+        "chi2_statistic": 0.2481640846360049,
+        "chi2_pvalue": 0.8833073693258361,
+        "baseline_distribution": {
+          "commercial_group": 0.47825,
+          "medicare_advantage": 0.3241,
+          "individual_marketplace": 0.19765
+        },
+        "current_distribution": {
+          "commercial_group": 0.4789333333333333,
+          "medicare_advantage": 0.32233333333333336,
+          "individual_marketplace": 0.19873333333333335
+        },
+        "is_drifted": "False"
+      }
+    },
+    "summary": {
+      "total_features_checked": 9,
+      "drifted_features_count": 0,
+      "drifted_features": [],
+      "drift_ratio": 0.0
+    }
+  },
+  "prediction_drift": {
+    "timestamp": "2026-11-02T08:37:06.396060",
+    "ks_statistic": 0.008083333333333331,
+    "ks_pvalue": 0.4716241091053772,
+    "baseline_mean": 0.25906363631710355,
+    "current_mean": 0.26115786732936014,
+    "mean_shift": 0.0020942310122565866,
+    "baseline_std": 0.16826493631638093,
+    "current_std": 0.16915878351106206,
+    "std_change_ratio": 0.005312141758402209,
+    "baseline_risk_distribution": {
+      "high": 0.1012,
+      "medium": 0.255775,
+      "low": 0.643025
+    },
+    "current_risk_distribution": {
+      "high": 0.1066,
+      "medium": 0.25593333333333335,
+      "low": 0.6374666666666666
+    },
+    "is_drifted": "False"
+  },
+  "concept_drift": {
+    "timestamp": "2026-11-02T08:37:08.228956",
+    "baseline_metrics": {
+      "auc": 0.7593759623213333,
+      "precision_at_10": 0.6195,
+      "recall_at_10": 0.23914302258251302,
+      "brier_score": 0.16046943402066716,
+      "base_rate": 0.25905
+    },
+    "current_metrics": {
+      "auc": 0.7449457605761164,
+      "precision_at_10": 0.65,
+      "recall_at_10": 0.21974306964164977,
+      "brier_score": 0.17708859220396134,
+      "base_rate": 0.2958
+    },
+    "auc_drop": 0.01443020174521692,
+    "precision_at_10_drop": -0.03049999999999997,
+    "base_rate_shift": 0.036750000000000005,
+    "is_drifted": "False",
+    "interpretation": {
+      "auc_change": "Stable (+0.014)",
+      "base_rate_change": "Increased churn (+3.7%)",
+      "recommendation": "Continue monitoring"
+    }
+  },
+  "alerts": [
+    {
+      "type": "BASE_RATE_SHIFT",
+      "severity": "MEDIUM",
+      "message": "Target base rate shifted by 3.7%",
+      "details": {
+        "baseline_base_rate": 0.25905,
+        "current_base_rate": 0.2958
+      }
+    }
+  ],
+  "recommendations": []
+}

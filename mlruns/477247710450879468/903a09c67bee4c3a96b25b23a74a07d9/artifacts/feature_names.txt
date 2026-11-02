@@ -1,0 +1,14 @@
+age
+tenure_years
+claims_last_12mo
+denied_claims_last_12mo
+premium_increase_pct
+service_calls_last_12mo
+last_satisfaction_score
+state_IN
+state_KY
+state_WV
+plan_type_individual_marketplace
+plan_type_medicare_advantage
+is_rural
+chronic_conditions
