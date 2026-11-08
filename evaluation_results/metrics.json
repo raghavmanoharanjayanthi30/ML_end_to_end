@@ -1,5 +1,5 @@
 {
-  "run_id": "fb755d327c2d4b5eb455a27530369399",
+  "run_id": "e8e0495cf34040d1a2bff37dc702622d",
   "data_path": "data/raw/test.csv",
   "aggregate_metrics": {
     "auc": 0.7449457605761164,

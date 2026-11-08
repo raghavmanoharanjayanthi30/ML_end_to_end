@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/raghavraahul/Downloads/module_5_project/mlruns/477247710450879468/1d633807b27e4b3f9dd38a62163796fc/artifacts
+end_time: 1794101001984
+entry_point_name: ''
+experiment_id: '477247710450879468'
+lifecycle_stage: active
+run_id: 1d633807b27e4b3f9dd38a62163796fc
+run_name: random_forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794100980016
+status: 3
+tags: []
+user_id: raghavraahul
